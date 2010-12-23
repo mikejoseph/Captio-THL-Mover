@@ -1,1 +1,8 @@
 Simple script that polls Apple Mail and moves Todo items to The Hit List
+
+Install:
+
+- Place the .applescript file somewhere... anywhere it doesn't really matter
+- Open the .plist file and set the path to the script (under ProgramArguments)
+- Save said .plist file under ~/Library/LaunchAgents
+- You may have to log out and log back in
