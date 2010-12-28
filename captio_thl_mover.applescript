@@ -21,7 +21,7 @@
 *)
 
 set subjectFlag to "Todo"
-set allowSenders to ["captio", "shannon"]
+set allowSenders to ["captio", "shannon", "mike.joseph5"]
 
 tell application "System Events" to set mailIsRunning to the count of (processes whose name is "Mail")
 tell application "System Events" to set thlIsRunning to the count of (processes whose name is "The Hit List")
